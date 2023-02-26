@@ -6,7 +6,7 @@ export const Main = () => {
       <div className="main__card">
         <img src={svg} alt="SVG ilustracion" />
 
-        <h1>¡Bienvenid@ a mi centro de mini apps!</h1>
+        <h1>¡Bienvenido/a a mi centro de mini apps!</h1>
       </div>
     </div>
   );
