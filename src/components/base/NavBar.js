@@ -17,7 +17,7 @@ export const NavBar = ({setApp}) => {
             navbarScroll
           >
             <NavLink onClick={() => setApp(true)} className='nav-link' to="/media-browser">Buscador de assets</NavLink>
-            <NavLink onClick={() => setApp(true)} className='nav-link' to="/heroes-browser">Buscador de heroes</NavLink>
+            {/* <NavLink onClick={() => setApp(true)} className='nav-link' to="/heroes-browser">Buscador de heroes</NavLink> */}
             <NavLink onClick={() => setApp(true)} className='nav-link' to="/compound-interest">Interés compuesto</NavLink>
           </Nav>
           
